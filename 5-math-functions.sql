@@ -120,3 +120,18 @@ SELECT
 
 -- It returns 2
 -- ------------------------------------------------------------
+-- (17) The TRUNCATE() function is used to get the truncated value for the specified
+-- value.
+SELECT
+    TRUNCATE(1.1);
+
+-- It returns 1
+SELECT
+    TRUNCATE(1.5);
+
+-- It returns 1
+SELECT
+    TRUNCATE(1.9);
+
+-- It returns 1
+-- ------------------------------------------------------------
