@@ -1,5 +1,16 @@
 -- MYSQL Function
 -- ============================================================
+-- MYSQL Function categories
+-- (A) DATE AND TIME FUNCTIONS
+-- (B) STRING FUNCTIONS
+-- (C) MATH FUNCTIONS
+-- (D) AGGREGATE FUNCTIONS
+-- (E) COMPARISON FUNCTIONS
+-- (F) CONDITIONAL FUNCTIONS
+-- (G) CONVERSION FUNCTIONS
+-- (H) INFORMATION FUNCTIONS
+-- (I) JSON FUNCTIONS
+-- ============================================================
 -- 
 -- (A) DATE AND TIME FUNCTIONS
 -- ------------------------------------------------------------
