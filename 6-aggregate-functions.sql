@@ -90,3 +90,21 @@ FROM
     employees;
 
 -- ------------------------------------------------------------
+-- (11) Function to get the percentile rank of a column 
+--
+-- This function returns the percentile rank of the values in the specified column.
+SELECT
+    PERCENTILE_RANK(salary, 10000)
+FROM
+    employees;
+
+-- ------------------------------------------------------------
+-- (12) Function to get the skewness of a column
+--
+-- This function returns the skewness of the values in the specified column.
+SELECT
+    SKEWNESS(salary)
+FROM
+    employees;
+
+-- ------------------------------------------------------------
