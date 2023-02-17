@@ -187,3 +187,37 @@ SELECT
 
 -- It returns 3.141592653589793
 -- ------------------------------------------------------------
+-- (24) The EXP() function is used to get the exponential value of the specified value.
+SELECT
+    EXP(1);
+
+-- It returns the value of e
+SELECT
+    EXP(2);
+
+-- It returns the value of e^2 = 2.718281828459045
+-- ------------------------------------------------------------
+-- (25) The LOG() function is used to get the natural logarithm of the specified value.
+SELECT
+    LOG(1);
+
+-- It returns 0
+SELECT
+    LOG(2);
+
+-- It returns 0.6931471805599453
+SELECT
+    LOG(3);
+
+-- It returns 1.0986122886681098
+-- ------------------------------------------------------------
+-- (26) The LOG10() function is used to get the logarithm of the specified value.
+SELECT
+    LOG10(1);
+
+-- It returns 0 
+SELECT
+    LOG10(2);
+
+-- It returns 0.3010299956639812
+-- ------------------------------------------------------------
