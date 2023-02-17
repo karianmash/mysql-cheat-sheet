@@ -162,3 +162,12 @@ FROM
 
 -- It returns the minimum salary of the employees table
 -- ------------------------------------------------------------
+-- (21) The AVG() function is used to get the average value of the specified column
+-- of the table.
+SELECT
+    AVG(salary)
+FROM
+    employees;
+
+-- It returns the average salary of the employees table
+-- ------------------------------------------------------------
