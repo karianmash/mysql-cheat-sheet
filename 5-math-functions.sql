@@ -40,3 +40,36 @@ SELECT
 -- It returns the value range from -9223372036854775808 to 9223372036854775807
 SELECT
     CEIL(1.1);
+
+-- 2
+-- ------------------------------------------------------------
+-- (7) Function to get the cosine of a number
+--
+-- It returns the value range from -1 to 1
+SELECT
+    COS(1);
+
+-- ------------------------------------------------------------
+-- (8) Function to get the largest integer value greater than or equal to a number
+--
+-- It returns the value range from -9223372036854775808 to 9223372036854775807
+SELECT
+    CEILING(1.1);
+
+-- 2
+-- ------------------------------------------------------------
+-- (9) Function to get the cosine of a number
+--
+-- It returns the value range from -1 to 1
+SELECT
+    COS(1);
+
+-- ------------------------------------------------------------
+-- Give a comment to the following function
+-- (10) Function to return the largest integer value which will be either 
+-- equal to or less than from a given input number.
+SELECT
+    FLOOR(1.1);
+
+-- 1
+-- ------------------------------------------------------------S
