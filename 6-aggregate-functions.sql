@@ -117,3 +117,21 @@ FROM
     employees;
 
 -- ------------------------------------------------------------
+-- (14) Function to get the covariance of two columns
+--
+-- This function returns the covariance of the values in the specified columns.
+SELECT
+    COVARIANCE(salary, bonus)
+FROM
+    employees;
+
+-- ------------------------------------------------------------
+-- (15) Function to get the correlation of two columns
+--
+-- This function returns the correlation of the values in the specified columns.
+SELECT
+    CORRELATION(salary, bonus) AS correlation -- alias the column
+FROM
+    employees;
+
+-- ------------------------------------------------------------
