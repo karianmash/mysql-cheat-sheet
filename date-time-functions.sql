@@ -62,3 +62,12 @@ SELECT
     HOUR(NOW());
 
 -- ------------------------------------------------------------
+-- (8) Function to get the current minute
+--
+-- This function returns the current minute in the format 'MM'.
+--
+-- It returns the value range from 0 to 59
+SELECT
+    MINUTE(NOW());
+
+-- ------------------------------------------------------------
