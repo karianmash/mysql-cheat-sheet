@@ -37,12 +37,28 @@ SELECT
 -- ------------------------------------------------------------
 -- (5) Function to get the current month
 --
--- This function returns the current month in the format 'MM'. This method
--- accepts one parameter as mentioned above and described below . date: The
--- date or datetime from which we want to extract the month.
+-- This function returns the current month in the format 'MM'.
 --
 -- It returns the value range from 1 to 12
 SELECT
     MONTH(NOW());
+
+-- ------------------------------------------------------------
+-- (6) Function to get the current day
+--
+-- This function returns the current day in the format 'DD'.
+--
+-- It returns the value range from 1 to 31
+SELECT
+    DAY(NOW());
+
+-- ------------------------------------------------------------
+-- (7) Function to get the current hour
+--
+-- This function returns the current hour in the format 'HH'.
+--
+-- It returns the value range from 0 to 23
+SELECT
+    HOUR(NOW());
 
 -- ------------------------------------------------------------
