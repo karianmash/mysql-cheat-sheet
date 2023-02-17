@@ -171,3 +171,13 @@ FROM
 
 -- It returns the average salary of the employees table
 -- ------------------------------------------------------------
+-- (22) The MOD() function is used to get the remainder of the specified values.
+SELECT
+    MOD(5, 2);
+
+-- It returns 1
+SELECT
+    MOD(5, 3);
+
+-- It returns 2
+-- ------------------------------------------------------------
