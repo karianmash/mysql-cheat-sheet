@@ -102,3 +102,21 @@ SELECT
 
 -- It returns 2
 -- ------------------------------------------------------------
+-- (14) The RAND() function is used to generate the random number.
+SELECT
+    RAND();
+
+-- It returns the random number between 0 and 1
+-- ------------------------------------------------------------
+-- (15) The SIGN() function is used to get the sign of the specified value.
+SELECT
+    SIGN(1);
+
+-- It returns 1
+-- ------------------------------------------------------------
+-- (16) The SQRT() function is used to get the square root of the specified value.
+SELECT
+    SQRT(4);
+
+-- It returns 2
+-- ------------------------------------------------------------
