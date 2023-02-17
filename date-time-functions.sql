@@ -116,3 +116,12 @@ SELECT
     QUARTER(NOW());
 
 -- ------------------------------------------------------------
+-- (14) Function to get the current day of the month
+--
+-- This function returns the current day of the month in the format 'DD'.
+--
+-- It returns the value range from 1 to 31
+SELECT
+    DAYOFMONTH(NOW());
+
+-- ------------------------------------------------------------
