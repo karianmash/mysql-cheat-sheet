@@ -72,4 +72,33 @@ SELECT
     FLOOR(1.1);
 
 -- 1
--- ------------------------------------------------------------S
+-- ------------------------------------------------------------
+-- (11) The COUNT() function is used to get the total count for the specified 
+-- column of the table.
+SELECT
+    COUNT(*) -- It returns the total count of the rows in the table
+FROM
+    employees;
+
+-- ------------------------------------------------------------
+-- (12) The POW function is used to get the power for the specified values.
+SELECT
+    POW(2, 3);
+
+-- It returns 8
+-- ------------------------------------------------------------
+-- (13) The ROUND function is used to get the rounded value for the specified
+-- value.
+SELECT
+    ROUND(1.1);
+
+-- It returns 1
+SELECT
+    ROUND(1.5);
+
+-- It returns 2
+SELECT
+    ROUND(1.9);
+
+-- It returns 2
+-- ------------------------------------------------------------
