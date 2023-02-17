@@ -108,3 +108,12 @@ FROM
     employees;
 
 -- ------------------------------------------------------------
+-- (13) Function to get the kurtosis of a column
+--
+-- This function returns the kurtosis of the values in the specified column.
+SELECT
+    KURTOSIS(salary)
+FROM
+    employees;
+
+-- ------------------------------------------------------------
