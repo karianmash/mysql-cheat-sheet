@@ -18,3 +18,12 @@ FROM
     employees;
 
 -- ------------------------------------------------------------
+-- (3) Function to get the maximum value of a column
+--
+-- This function returns the maximum value of the values in the specified column.
+SELECT
+    MAX(salary)
+FROM
+    employees;
+
+-- ------------------------------------------------------------
