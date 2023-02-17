@@ -135,3 +135,30 @@ SELECT
 
 -- It returns 1
 -- ------------------------------------------------------------
+-- (18) The SUM() function is used to get the sum of the specified column of 
+-- the table.
+SELECT
+    SUM(salary)
+FROM
+    employees;
+
+-- It returns the sum of the salary column of the employees table
+-- ------------------------------------------------------------
+-- (19) The MAX() function is used to get the maximum value of the specified column
+-- of the table.
+SELECT
+    MAX(salary)
+FROM
+    employees;
+
+-- It returns the maximum salary of the employees table
+-- ------------------------------------------------------------
+-- (20) The MIN() function is used to get the minimum value of the specified column
+-- of the table.
+SELECT
+    MIN(salary)
+FROM
+    employees;
+
+-- It returns the minimum salary of the employees table
+-- ------------------------------------------------------------
