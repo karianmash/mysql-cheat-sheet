@@ -89,3 +89,21 @@ SELECT
     WEEKDAY(NOW());
 
 -- ------------------------------------------------------------
+-- (11) Function to get the current day of the year
+--
+-- This function returns the current day of the year in the format 'DD'.
+--
+-- It returns the value range from 1 to 366
+SELECT
+    DAYOFYEAR(NOW());
+
+-- ------------------------------------------------------------
+-- (12) Function to get the current week of the year
+--
+-- This function returns the current week of the year in the format 'WW'.
+--
+-- It returns the value range from 1 to 53
+SELECT
+    WEEK(NOW());
+
+-- ------------------------------------------------------------
