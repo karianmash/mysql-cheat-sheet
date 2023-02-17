@@ -71,3 +71,21 @@ SELECT
     MINUTE(NOW());
 
 -- ------------------------------------------------------------
+-- (9) Function to get the current second
+--
+-- This function returns the current second in the format 'SS'.
+--
+-- It returns the value range from 0 to 59
+SELECT
+    SECOND(NOW());
+
+-- ------------------------------------------------------------
+-- (10) Function to get the current day of the week
+--
+-- This function returns the current day of the week in the format 'DD'.
+--
+-- It returns the value range from 0 to 6
+SELECT
+    WEEKDAY(NOW());
+
+-- ------------------------------------------------------------
