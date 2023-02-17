@@ -107,3 +107,12 @@ SELECT
     WEEK(NOW());
 
 -- ------------------------------------------------------------
+-- (13) Function to get the current quarter of the year
+--
+-- This function returns the current quarter of the year in the format 'Q'.
+--
+-- It returns the value range from 1 to 4
+SELECT
+    QUARTER(NOW());
+
+-- ------------------------------------------------------------
